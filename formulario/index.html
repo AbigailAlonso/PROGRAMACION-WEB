@@ -1,0 +1,83 @@
+	<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Fornularios</title>
+	</head>
+
+	<body>	
+<p><strong>          FORMULARIO PARA INSTITUTO TECNOLOGICO DE CIUDAD JUAREZ  </strong></p><strong><hr color="red" size="4">
+
+<strong>Conteste con atencion el siguiente formulario:  </strong>
+
+<form action="formulario.php" method="get">
+  <p>Nombre: <input type="text" name="nombre" size="40"></p>
+  <p>Apellidos:
+  <input type="text" name="apellidos" size="40" placeholder=" ">
+</p>
+<p>Correo Electronico: <input type="text" name="correo" size="40"></p>
+  <p>Año de nacimiento: <input type="number" name="nacido" min="1900"></p>
+  <p>Sexo:
+    <input type="radio" name="hm" value="h"> Hombre
+    <input type="radio" name="hm" value="m"> Mujer
+  </p>
+
+  <form>
+  <label for = "clave"> Contraseña a elegir: </label>
+  <input type = "password" id = "clave" name = "clave">
+</form>
+
+<form>
+  <label for = "clave"> Digite de nuevo su Contraseña: </label>
+  <input type = "password" id = "clave" name = "clave">
+</form>
+
+
+<form>
+  <label for = "CARRERA"> ¿Carrera a escojer? </label>
+  <select id = "CARRERA" name = "CARRERA">
+
+  	    <option value = "Ing"> - </option>
+    <option value = "ING. SISTEMAS"> Ing. sistemas </option>
+    <option value = "ING. INDUSTRIAL"> Ing. industrial</option>
+    <option value = "ING. MECATRONICA"> Ing. mecatronica </option>
+    <option value = "ING ELECTRICA"> Ing. electrica </option>
+    <option value = "ING ELECTRONICA"> Ing. electronica </option>
+  </select>
+</form>
+
+
+<form>
+	<p>Describa porque eligio la carrera </p>
+  <textarea name="texto" rows="6" cols="50"></textarea>
+
+</form>
+
+<form>
+  <p> Medio de transporte para llegar a el instituto </p>
+  <label for = "AUTOMOVIL"> Automovil </label>
+  <input id = "auto" name = "Auto propio" type = "checkbox" value = "Auto">
+  <br>
+  <label for = "CAMION"> Camion </label>
+  <input id = "ruta" name = "transporte publico" type = "checkbox" value = "T. publico">
+  <br>
+  <label for = "UBER"> Uber </label>
+  <input id = "uber" name = "ube" type = "checkbox" value = "Uber">
+</form>
+
+Indique su promedio (Malo, Regular, Bueno):
+<input type="range" name="rango"
+  min="1" max="3" list="lista-rango">
+<datalist id="lista-rango">
+  <option value="1" label="Malo">
+  <option value="2" label="Regular">
+  <option value="3" label="Bueno">
+</datalist>
+
+  <p>
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Borrar">
+  </p>
+</form>
+		</body>
+</html>
