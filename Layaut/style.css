@@ -1,0 +1,66 @@
+body{
+	background-image: url("https://thumbs.dreamstime.com/b/fondo-programado-del-software-c%C3%B3digo-html-d-rinden-102733125.jpg"); 
+	background-size: cover;}
+
+*{
+	box-sizing: border-box;
+}
+
+header{
+	color: #000080;
+	padding: 2px 2px 2px 2px;
+	background-color: rgba(6,1,5,.50);	
+}
+
+h2{	
+	float: right;
+}
+
+.lista{		
+    display: inline-block;		
+	position: relative;		
+    margin-left: 510px;
+	
+}
+li,ul{	
+	padding: 10px 10px 10px 10px;	
+	text-align: center;	
+	margin-bottom: 0px;	
+	display: inline-block;
+	color: #00ffff;
+	background-color: rgba(6,1,5,.50);
+}
+
+li:hover{
+background-color: #008080 ;
+color: white;
+font-size: 20px;
+
+}
+
+div{
+	width: 250px;
+	height: 150px;
+	overflow: hidden;	
+	margin-bottom: 60px;
+	color: black;
+	background-color: #6495ed;
+}
+
+.cuadros{
+	width: 600px;
+	height: 360px;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-left: auto; margin-right: auto;
+	background-color: #00008b	;
+}
+
+.arribad{
+
+	float: right;
+}
+
+.abajod{
+	float: right;
+}
